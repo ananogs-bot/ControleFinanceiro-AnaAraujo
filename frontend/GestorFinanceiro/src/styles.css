@@ -1,0 +1,61 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Roxo */
+:root {
+  --roxo: #8a4fff;
+  --roxo-claro: #e9ddff;
+}
+
+h1 {
+  color: var(--roxo);
+  text-align: center;
+}
+
+/* Card do formulário */
+.card-financas {
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 1px solid var(--roxo-claro);
+}
+
+/* Botões */
+.btn-roxo {
+  background-color: var(--roxo);
+  color: white;
+}
+
+.btn-roxo:hover {
+  background-color: #6e3bcc;
+}
+
+.btn-edit {
+  background-color: var(--roxo-claro);
+}
+
+.btn-edit:hover {
+  background-color: #d1c0ff;
+}
+
+.btn-delete {
+  background-color: #ffd1d1;
+}
+
+.btn-delete:hover {
+  background-color: #ffb3b3;
+}
+
+/* Tabela separada */
+table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
+

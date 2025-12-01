@@ -1,0 +1,15 @@
+nav {
+    background-color: #cbacfd;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-weight: bold;
+}
